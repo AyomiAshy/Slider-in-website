@@ -6,7 +6,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Style.CSS">
 </head>
-<body><section class="hero">
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="Index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <section class="hero">
     <div class="carousel-container">
     <img class="myslides" src="One Piece.png">
     <img class="myslides" src="Solo Leveling.png">
@@ -40,7 +57,7 @@
             <img src="Solo Leveling.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Solo Leveling</h5>
-              <p class="card-text"> is a South Korean portal fantasy web novel written by Chugong and serialized in Kakao's digital comic and fiction platform KakaoPage starting on July 25, 2016.
+              <p class="card-text">Solo leveling is a South Korean portal fantasy web novel written by Chugong and serialized in Kakao's digital comic and fiction platform KakaoPage starting on July 25, 2016.
                 The story follows Sung Jinwoo, a notoriously weak E-Rank hunter who finds himself in a world where hunters, humans with supernatural abilities, must battle deadly monsters to protect mankind from certain annihilation.
                 After narrowly surviving an overwhelmingly powerful double dungeon that nearly wipes out his entire party, a mysterious program called the System chooses him as its sole player and grants him the unique ability to level up in strength, something no other hunter can do.
                Jinwoo then sets out on a journey to discover the secrets of the dungeons and the true source of his powers as he fights against all kinds of enemies, both man and monster.
@@ -51,5 +68,11 @@
           </div>
     </section>
     <script src="Script.JS"></script>
+<!--Footer-->
+<footer class="bg-dark text-white text-center py-3 mt-4">
+  <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
