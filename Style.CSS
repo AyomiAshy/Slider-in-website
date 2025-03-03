@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.hero{
+.hero {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -21,6 +21,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .myslides {
@@ -42,4 +43,28 @@
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 18rem;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
 }
